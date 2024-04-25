@@ -1,1 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quiz Game</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<style>
+  body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+.container {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+.question {
+  margin-bottom: 20px;
+}
+
+.question h2 {
+  margin-bottom: 10px;
+  color: #333;
+}
+
+input[type="radio"] {
+  margin-right: 5px;
+}
+
+.submit-btn {
+  display: block;
+  margin: 0 auto;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.submit-btn:hover {
+  background-color: #0056b3;
+}
+
+</style>
+<body>
+  <div class="container">
+    <h1>Welcome to the Quiz Game!</h1>
+    <div class="question">
+      <h2>Question 1</h2>
+      <p>What is the capital of rwanda?</p>
+      <input type="radio" name="q1" id="q1_a1">
+      <label for="q1_a1">Paris</label><br>
+      <input type="radio" name="q1" id="q1_a2">
+      <label for="q1_a2">London</label><br>
+      <input type="radio" name="q1" id="q1_a3">
+      <label for="q1_a3">Berlin</label><br>
+      <input type="radio" name="q1" id="q1_a4">
+      <label for="q1_a1">kigali</label><br>
+      <input type="radio" name="q1" id="q1_a5">
+      <label for="q1_a4">Madrid</label>
+    </div>
+    <button class="submit-btn">Submit Answer</button>
+  </div>
+</body>
+</html>
+
 
